@@ -4,6 +4,13 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Secure Password Vault',
   description: 'A secure, client-side encrypted password manager',
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    shortcut: '/icon.svg',
+    apple: '/icon.svg',
+  },
 }
 
 export default function RootLayout({

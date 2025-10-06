@@ -1,0 +1,42 @@
+# Quick Commands to Push to GitHub
+
+## Steps to Follow:
+
+### 1. Create Repository on GitHub
+- Go to: https://github.com/new
+- Repository name: `password-vault`
+- Description: `Secure password manager with Next.js`
+- Choose Public or Private
+- **DO NOT** check any boxes (we have files already)
+- Click "Create repository"
+
+### 2. Copy Your Repository URL
+GitHub will show you a URL like:
+```
+https://github.com/YOUR-USERNAME/password-vault.git
+```
+
+### 3. Run These Commands (One by One)
+
+**Replace YOUR-USERNAME with your GitHub username:**
+
+```bash
+git remote add origin https://github.com/YOUR-USERNAME/password-vault.git
+
+git branch -M main
+
+git push -u origin main
+```
+
+### Example:
+If your GitHub username is "john":
+```bash
+git remote add origin https://github.com/john/password-vault.git
+git branch -M main
+git push -u origin main
+```
+
+## Done! ✅
+
+Your code is now on GitHub at:
+`https://github.com/YOUR-USERNAME/password-vault`

@@ -71,7 +71,7 @@ export default function Home() {
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-800 mb-2">
-            🔐 Secure Password Generator
+             Secure Password Generator
           </h1>
           <p className="text-gray-600">Generate strong, secure passwords instantly</p>
         </div>
@@ -193,10 +193,10 @@ export default function Home() {
         </div>
 
         {/* Security Note */}
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 text-sm text-blue-800">
+        {/* <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 text-sm text-blue-800">
           <p className="font-medium mb-1">🛡️ Security Notice</p>
           <p>All passwords are generated locally in your browser. No data is sent to any server until you choose to save them in your vault.</p>
-        </div>
+        </div> */}
       </div>
     </div>
   )
